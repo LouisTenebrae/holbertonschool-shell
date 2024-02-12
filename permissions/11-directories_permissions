@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R +X ./permissions
+chmod -R a+X ./permissions
