@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R +X /tmp/
+chmod -R +X ./folder
