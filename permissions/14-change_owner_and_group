@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R Vincent.School ./*/
+chown -R Vincent.School ./
