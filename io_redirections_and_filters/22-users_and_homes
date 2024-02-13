@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -oE '^[*/usr/*]$' /etc/passwd
+sort -d | find /etc/passwd /home/* -type -d | uniq | less
