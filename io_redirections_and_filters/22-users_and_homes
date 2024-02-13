@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd | cut -f1,3,6 -d: | grep '[0-9][0-9][0-9]:[a-z]+:/[a-z]+/[a-z]+/[a-z]+'
+sort -d /etc/passwd
