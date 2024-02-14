@@ -1,2 +1,2 @@
 #!/bin/bash
-cat acrostic_? | cut -c1 | tr | cut -f1
+cat acrostic_? | cut -c1 | cut -f1
