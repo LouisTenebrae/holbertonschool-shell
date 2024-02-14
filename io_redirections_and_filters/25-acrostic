@@ -1,2 +1,3 @@
 #!/bin/bash
-cut -c 1
+cat acrostic_1 | cut -c1 | tr -d '"'"''"'"''"'"'
+'"'"''"'"''"'"' | cut -f1
