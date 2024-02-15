@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n | grep '^[[:space:]]*[1-9]*[13579][[:space:]].*$*' | cut -d$ -f2
+cat -n | grep '^[[:space:]]*[1-9]*[13579][[:space:]].*$' | rev | cut -f 1 | rev
